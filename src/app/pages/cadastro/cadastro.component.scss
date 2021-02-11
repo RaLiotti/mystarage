@@ -1,0 +1,48 @@
+
+.body{
+    padding-bottom: 50em;
+    background-color: rgba(199, 199, 199, 0.74);
+}
+
+.geral{
+    padding: 3em;
+}
+
+.cadastro{
+    padding-bottom: 2em;
+    font-size: 15pt;
+    text-align: center;
+    border-radius: 1%;
+    border: solid 1px;
+    margin: 0 auto;
+    width: 40em;
+    height: auto;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.dados-cadastro{
+    padding: 10px;
+}
+
+.btn-cadastrar{
+    margin: 0 auto;
+}
+
+.btnLogin{
+    color: #000000;
+    margin-top: 2em;
+}
+
+.btnLogin a{
+    margin-top: 25px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.btnLogin a:hover{
+
+    text-decoration: none;
+    color: blue;
+
+}

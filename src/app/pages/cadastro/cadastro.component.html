@@ -1,0 +1,73 @@
+<ng-container class="body">
+
+    <div class="geral">
+        <div class="p-fluid p-grid cadastro body">
+            <h1 class="p-col-12">Cadastro</h1>
+
+            <div class="p-col-6">
+
+                <div class="dados-cadastro p-col-12">
+                    <label class="p-col-auto">Nome Completo</label>
+                    <input class="p-col-11" type="username" placeholder="Ex: João da Silva" type="text" pTooltip="Digite seu nome completo" tooltipPosition="bottom" tooltipEvent="focus" pInputText />
+                </div>
+
+                <div class="dados-cadastro p-col-12">
+                    <label class="p-col-auto">E-mail</label>
+                    <input class="p-col-11" placeholder="Ex: email@email.com" type="email" pTooltip="Digite seu E-mail" tooltipPosition="bottom" tooltipEvent="focus" pInputText />
+                </div>
+
+                <div class="dados-cadastro p-col-12">
+                    <label class="p-col-auto">CPF</label>
+                    <p-inputMask class="p-col-11" placeholder="Ex: 999.999.999-99" mask="999.999.999-99" pTooltip="Digite seu nome completo" tooltipPosition="bottom" tooltipEvent="focus"></p-inputMask>
+                </div>
+
+                <div class="dados-cadastro p-col-12">
+                    <label for="icon">Data de nascimento</label>
+                    <p-calendar class="p-col-12 data-nascimento" mask="99/99/999" dateFormat="dd/mm/yy" [showIcon]="true" inputId="icon">
+                    </p-calendar>
+                </div>
+
+                <div class="dados-cadastro p-col-12">
+
+                </div>
+
+            </div>
+
+
+            <div class="p-col-6">
+
+                <div class="dados-cadastro p-col-12">
+                    <label class="p-col-auto">Senha</label>
+                    <input class="p-col-11" placeholder="Digite a senha" type="username" type="password" pInputText />
+                </div>
+
+                <div class="dados-cadastro p-col-12">
+                    <label class="p-col-auto">Confirmar senha</label>
+                    <input class="p-col-11" placeholder="Digite a senha novamente" type="username" type="password"
+                        pInputText />
+                </div>
+
+            </div>
+
+
+            <div class="dados-cadastro p-col-12">
+                <p-checkbox  binary="true" [(ngModel)]="teste"></p-checkbox>
+                {{ teste }}
+            </div>
+
+            <hr size="2" width="85%">
+
+            <div class="p-col-6 btn-cadastrar">
+
+                <div class="btnLogin">
+                    <p-button label="Cadastrar" type="submit"></p-button>
+                </div>
+
+                <div class="btnLogin" id="cadastrar">
+                    <a href="#">Entrar</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</ng-container>
