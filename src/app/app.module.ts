@@ -15,11 +15,12 @@ import { InputMaskModule } from 'primeng/inputmask';
 import { CalendarModule } from 'primeng/calendar';
 import { TooltipModule } from 'primeng/tooltip';
 import { CheckboxModule } from 'primeng/checkbox';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { CadastroComponent } from './pages/cadastro/cadastro.component';
     AppComponent,
     HomeComponent,
     LoginComponent,
-    CadastroComponent
+    CadastroComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +43,8 @@ import { CadastroComponent } from './pages/cadastro/cadastro.component';
     InputMaskModule,
     CalendarModule,
     TooltipModule,
-    CheckboxModule
+    CheckboxModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

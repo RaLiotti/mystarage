@@ -1,3 +1,17 @@
-body{
-    background: url('../assets/images/background/bkg.gif');
+@media (max-width: 1200px){
+
+    body{
+        //background: url('../assets/images/background/bkg.gif');
+        
+    }
+
+}
+
+
+@media (min-width: 1200px){
+
+    body{
+       
+    }
+   
 }
