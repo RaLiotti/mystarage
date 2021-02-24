@@ -15,14 +15,4 @@ export class HomeComponent implements OnInit {
 
   }
 
-  change(){
-
-    if(this.teste == false){
-      this.teste = true;
-    }else{
-      this.teste = false;
-    }
-
-  }
-
 }
